@@ -1,115 +1,89 @@
-☕ Advanced Java – Complete Guide
+# ☕ Advanced Java – Complete Guide
 
-🚀 This repository covers Advanced Java concepts required for interviews, academic learning, and real-world backend development.
-It includes hands-on examples and notes on JDBC, Servlets, JSP, Hibernate, Spring, and Spring Boot.
+🚀 This repository covers **Advanced Java concepts** for **backend development**, **web applications**, and **interview preparation**.  
+It builds on **Core Java** knowledge to teach **JDBC**, **Servlets**, **JSP**, **Hibernate**, **Spring**, and **Spring Boot**.
 
-📌 What You’ll Learn
+---
 
-✅ Core backend development concepts
-✅ Database connectivity & ORM
-✅ Web application development
-✅ REST API development
-✅ Enterprise-level Java frameworks
-✅ Interview-oriented explanations
+## 📌 What You’ll Learn
 
-🧩 Technologies Covered
-🔹 JDBC (Java Database Connectivity)
+✅ Database connectivity & ORM  
+✅ Web application development (Servlets & JSP)  
+✅ REST API creation  
+✅ Spring & Spring Boot frameworks  
+✅ Enterprise-level backend development  
+✅ Interview-ready examples  
 
-🗄️ Connect Java applications with relational databases
+---
 
-DriverManager & Connection
+## 🧩 Topics Covered
 
-Statement / PreparedStatement
+### 🔹 JDBC (Java Database Connectivity)
+🗄️ Connect Java applications with databases  
+- DriverManager & Connection  
+- Statement / PreparedStatement  
+- ResultSet  
+- CRUD operations  
+- Transactions  
+- Exception handling  
 
-ResultSet
+---
 
-CRUD Operations
+### 🔹 Servlets
+🌐 Server-side Java for web apps  
+- Servlet lifecycle  
+- HTTP methods (GET, POST)  
+- Request & Response objects  
+- Session management  
+- Cookies  
+- MVC architecture  
 
-Transactions
+---
 
-Exception handling
+### 🔹 JSP (Java Server Pages)
+🖥️ Dynamic web pages  
+- JSP lifecycle  
+- Scriptlets, Expressions, Directives  
+- JSP Implicit Objects  
+- JSTL & Expression Language (EL)  
 
-🔹 Servlets
+---
 
-🌐 Server-side Java for web applications
+### 🔹 Hibernate
+🧠 ORM framework for database operations  
+- Hibernate architecture  
+- Configuration & mapping  
+- HQL  
+- CRUD using Hibernate  
+- Caching  
+- Relationships (One-to-One, One-to-Many, Many-to-Many)  
 
-Servlet lifecycle
+---
 
-HTTP methods (GET, POST)
+### 🔹 Spring Framework
+🌱 Lightweight enterprise framework  
+- IOC & Dependency Injection  
+- Bean lifecycle  
+- Spring MVC  
+- Annotations  
+- Exception handling  
+- Integration with Hibernate/JDBC  
 
-Request & Response handling
+---
 
-Session management
+### 🔹 Spring Boot
+⚡ Rapid application development  
+- Auto-configuration & Spring Boot starters  
+- RESTful APIs  
+- JPA & Hibernate integration  
+- Application properties  
+- Exception handling  
+- Microservices basics  
 
-Cookies
+---
 
-MVC architecture
+## 📂 Project Structure (Example)
 
-🔹 JSP (Java Server Pages)
-
-🖥️ Dynamic web page creation
-
-JSP lifecycle
-
-Scriptlets, Expressions, Directives
-
-JSP Implicit Objects
-
-JSTL
-
-Expression Language (EL)
-
-🔹 Hibernate
-
-🧠 ORM framework for database operations
-
-Hibernate architecture
-
-Configuration & mappings
-
-HQL
-
-CRUD using Hibernate
-
-Caching
-
-Relationships (One-to-One, One-to-Many, etc.)
-
-🔹 Spring Framework
-
-🌱 Lightweight enterprise framework
-
-IOC & Dependency Injection
-
-Bean lifecycle
-
-Spring MVC
-
-Annotations
-
-Exception handling
-
-Integration with Hibernate/JDBC
-
-🔹 Spring Boot
-
-⚡ Rapid application development
-
-Auto-configuration
-
-RESTful APIs
-
-Spring Boot starters
-
-JPA & Hibernate integration
-
-Exception handling
-
-Application properties
-
-Microservices basics
-
-📂 Project Structure (Example)
 Advanced-Java/
 │
 ├── JDBC/
@@ -120,53 +94,62 @@ Advanced-Java/
 ├── Spring-Boot/
 └── README.md
 
-🎯 Interview Preparation Focus
 
-💡 Covers most frequently asked interview topics
-💡 Clear concept explanations
-💡 Practical examples
-💡 Beginner to Advanced flow
+---
 
-Perfect for:
+## 🎯 Interview Preparation Focus
 
-Java Backend Developer roles
+💡 Covers frequently asked Advanced Java interview topics  
+💡 Practical examples & clear explanations  
+💡 Beginner → Advanced flow  
 
-Freshers & Students
+**Perfect for:**
+- Java Backend Developer roles  
+- Students & Freshers  
+- Academic projects  
+- Placement preparation  
 
-Academic projects
+---
 
-Placement preparation
+## 🎓 Who Should Use This Repository?
 
-🎓 Who Should Use This Repository?
+👨‍🎓 Students learning Advanced Java  
+👨‍💻 Backend developers  
+📘 Interview aspirants  
+🧪 Hands-on learners  
 
-👨‍🎓 Students learning Advanced Java
-👨‍💻 Java Backend Developers
-📘 Interview candidates
-🧪 Hands-on learners
+---
 
-🛠️ Prerequisites
+## 🛠️ Prerequisites
 
-✔️ Core Java
-✔️ OOP Concepts
-✔️ Basic SQL
-✔️ Basic HTML/CSS (for JSP & Servlets)
+✔️ Core Java  
+✔️ Basic SQL  
+✔️ Basic HTML/CSS (for JSP & Servlets)  
 
-⭐ How to Use
+---
 
-1️⃣ Clone the repository
-2️⃣ Start topic-wise (JDBC → Spring Boot)
-3️⃣ Practice examples
-4️⃣ Revise for interviews
+## ⭐ How to Use This Repository
 
-🤝 Contributing
+1️⃣ Start with **JDBC**  
+2️⃣ Move to **Servlets & JSP**  
+3️⃣ Practice **Hibernate**  
+4️⃣ Learn **Spring & Spring Boot**  
+5️⃣ Revise for **interviews**  
 
-Contributions are welcome!
-Feel free to fork, improve, or add examples.
+---
 
-📬 Contact
+## 🤝 Contributing
 
-📧 Email: mahesh.kale.cse@gmail.com
+Contributions are welcome!  
+Feel free to **fork**, **improve**, or **add examples**.
 
-🔗 LinkedIn: [https://www.linkedin.com/in/mahesh-kale-cse/]
+---
 
-⭐ If this repository helps you, don’t forget to star it! ⭐
+## 📬 Contact
+
+📧 Email: *mahesh.kale.cse@gmail.com*  
+🔗 LinkedIn: *https://www.linkedin.com/in/mahesh-kale-cse/*
+
+---
+
+⭐ **If this repository helps you, don’t forget to star it!** ⭐
