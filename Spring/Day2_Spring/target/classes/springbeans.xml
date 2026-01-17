@@ -1,0 +1,32 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    
+	<bean id="e" class="Com.Entity.Employee">
+		<property name="Id" value="123"></property>
+		<property name="Name" value="Mahesh"></property>
+		<property name="City" value="Yavatmal"></property>
+	</bean>
+
+	<bean id="Com" class="Com.Entity.Company">
+		<property name="CId" value="1"></property>
+		<property name="CName" value="Google"></property>
+		<property name="emp" ref="e"></property>
+	</bean>
+-->
+	<bean id="e" class="Com.Entity.Employee">
+		<constructor-arg index="0" value="1234"></constructor-arg>
+		<constructor-arg index="1" value="Hari"></constructor-arg>
+		<constructor-arg index="2" value="Wakunta"></constructor-arg>
+	</bean>
+
+	<bean id="Com" class="Com.Entity.Company">
+		<constructor-arg index="0" value="2"></constructor-arg>
+		<constructor-arg index="1" value="Tata"></constructor-arg>
+		<constructor-arg index="2" ref="e"></constructor-arg>
+	</bean>
+
+</beans>
