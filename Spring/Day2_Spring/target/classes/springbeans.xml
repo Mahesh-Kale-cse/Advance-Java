@@ -4,19 +4,25 @@
        http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-<!--    
-	<bean id="e" class="Com.Entity.Employee">
+<!-- 
+    There are Two Ways to Set the Data in Spring Using the Beans 
+    
+    1. By using the Property
+    2. By using the Constuctor args
+-->
+        
+	<bean id="E" class="Com.Entity.Employee">
 		<property name="Id" value="123"></property>
 		<property name="Name" value="Mahesh"></property>
 		<property name="City" value="Yavatmal"></property>
 	</bean>
 
-	<bean id="Com" class="Com.Entity.Company">
+	<bean id="Con" class="Com.Entity.Company">
 		<property name="CId" value="1"></property>
 		<property name="CName" value="Google"></property>
-		<property name="emp" ref="e"></property>
+		<property name="emp" ref="E"></property>
 	</bean>
--->
+
 	<bean id="e" class="Com.Entity.Employee">
 		<constructor-arg index="0" value="1234"></constructor-arg>
 		<constructor-arg index="1" value="Hari"></constructor-arg>

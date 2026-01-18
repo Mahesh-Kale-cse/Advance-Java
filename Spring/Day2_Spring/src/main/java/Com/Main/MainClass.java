@@ -16,6 +16,11 @@ public class MainClass {
 		System.out.println(e1);                         
 		Company c = context.getBean("Com",Company.class);    // call both company and Employee
 		System.out.println(c); 
+		
+		Employee e2 = context.getBean("E",Employee.class);   // only call the Employee
+		System.out.println(e2);                         
+		Company C = context.getBean("Com",Company.class);    // call both company and Employee
+		System.out.println(C); 
 
 	}
 }

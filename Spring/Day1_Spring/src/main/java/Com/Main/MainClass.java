@@ -12,6 +12,11 @@ public class MainClass {
 		
 		ApplicationContext context = new ClassPathXmlApplicationContext("springbeans.xml");
 		Employee e1 = context.getBean(Employee.class);
+		
+		e1.setId(1);
+		e1.setName("Ram");
+		e1.setCity("Pune");
+		
 		System.out.println(e1);
 
 	}
